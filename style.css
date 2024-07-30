@@ -10,14 +10,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #f2f2f2;
+    background: lightcyan;
 }
+
 .container{
     position: relative;
     max-width: 300px;
     width: 100%;
-    background: #fff;
-    border-radius: 122px;
+    padding: 10px 20px 20px;
+    background: grey;
+    border-radius: 12px;
     box-shadow: 0 5 10px rgba(0,0,0,0.05);
 }
 .display{
@@ -50,5 +52,5 @@ body{
   background-color: #e2e2e2;
 }
 .operator{
-  color: lightblue;
+  color: red;
 }
